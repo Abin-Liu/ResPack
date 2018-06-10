@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Abin\LOCALS~1\Temp\RSP1F8.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/zlib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Projects\zlib\adler32.c"
+"D:\Projects\zlib\compress.c"
+"D:\Projects\zlib\crc32.c"
+"D:\Projects\zlib\deflate.c"
+"D:\Projects\zlib\infback.c"
+"D:\Projects\zlib\inffast.c"
+"D:\Projects\zlib\inflate.c"
+"D:\Projects\zlib\inftrees.c"
+"D:\Projects\zlib\trees.c"
+"D:\Projects\zlib\uncompr.c"
+"D:\Projects\zlib\ZLibExport.cpp"
+"D:\Projects\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Abin\LOCALS~1\Temp\RSP1F8.tmp" 
+Creating temporary file "C:\DOCUME~1\Abin\LOCALS~1\Temp\RSP1F9.tmp" with contents
+[
+/nologo /ML /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/zlib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Projects\zlib\gzio.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Abin\LOCALS~1\Temp\RSP1F9.tmp" 
+Creating temporary file "C:\DOCUME~1\Abin\LOCALS~1\Temp\RSP1FA.tmp" with contents
+[
+/nologo /out:"Release\zlib.lib" 
+.\Release\adler32.obj
+.\Release\compress.obj
+.\Release\crc32.obj
+.\Release\deflate.obj
+.\Release\gzio.obj
+.\Release\infback.obj
+.\Release\inffast.obj
+.\Release\inflate.obj
+.\Release\inftrees.obj
+.\Release\trees.obj
+.\Release\uncompr.obj
+.\Release\ZLibExport.obj
+.\Release\zutil.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\Abin\LOCALS~1\Temp\RSP1FA.tmp"
+<h3>Output Window</h3>
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+infback.c
+inffast.c
+inflate.c
+inftrees.c
+trees.c
+uncompr.c
+ZLibExport.cpp
+zutil.c
+Compiling...
+gzio.c
+Creating library...
+
+
+
+<h3>Results</h3>
+zlib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

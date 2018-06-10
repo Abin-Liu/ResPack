@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ResPack - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Abin\LOCALS~1\Temp\RSP2E7.tmp" with contents
+[
+/nologo /MT /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "RESPACK_EXPORTS" /FR"Release/" /Fp"Release/ResPack.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Projects\ResPack\DLL\ResPack.cpp"
+"D:\Projects\ResPack\DLL\ResPackInfo.cpp"
+"D:\Projects\ResPack\DLL\zlib\adler32.c"
+"D:\Projects\ResPack\DLL\zlib\compress.c"
+"D:\Projects\ResPack\DLL\zlib\crc32.c"
+"D:\Projects\ResPack\DLL\zlib\deflate.c"
+"D:\Projects\ResPack\DLL\zlib\gzio.c"
+"D:\Projects\ResPack\DLL\zlib\infback.c"
+"D:\Projects\ResPack\DLL\zlib\inffast.c"
+"D:\Projects\ResPack\DLL\zlib\inflate.c"
+"D:\Projects\ResPack\DLL\zlib\inftrees.c"
+"D:\Projects\ResPack\DLL\zlib\minigzip.c"
+"D:\Projects\ResPack\DLL\zlib\trees.c"
+"D:\Projects\ResPack\DLL\zlib\uncompr.c"
+"D:\Projects\ResPack\DLL\zlib\ZLibExport.cpp"
+"D:\Projects\ResPack\DLL\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Abin\LOCALS~1\Temp\RSP2E7.tmp" 
+Creating temporary file "C:\DOCUME~1\Abin\LOCALS~1\Temp\RSP2E8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/ResPack.pdb" /machine:I386 /out:"Release/ResPack.dll" /implib:"Release/ResPack.lib" 
+.\Release\ResPack.obj
+.\Release\ResPackInfo.obj
+.\Release\adler32.obj
+.\Release\compress.obj
+.\Release\crc32.obj
+.\Release\deflate.obj
+.\Release\gzio.obj
+.\Release\infback.obj
+.\Release\inffast.obj
+.\Release\inflate.obj
+.\Release\inftrees.obj
+.\Release\minigzip.obj
+.\Release\trees.obj
+.\Release\uncompr.obj
+.\Release\ZLibExport.obj
+.\Release\zutil.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Abin\LOCALS~1\Temp\RSP2E8.tmp"
+<h3>Output Window</h3>
+Compiling...
+ResPack.cpp
+ResPackInfo.cpp
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infback.c
+inffast.c
+inflate.c
+inftrees.c
+minigzip.c
+trees.c
+uncompr.c
+ZLibExport.cpp
+zutil.c
+Linking...
+   Creating library Release/ResPack.lib and object Release/ResPack.exp
+Creating temporary file "C:\DOCUME~1\Abin\LOCALS~1\Temp\RSP2EC.tmp" with contents
+[
+/nologo /o"Release/ResPack.bsc" 
+.\Release\ResPack.sbr
+.\Release\ResPackInfo.sbr
+.\Release\adler32.sbr
+.\Release\compress.sbr
+.\Release\crc32.sbr
+.\Release\deflate.sbr
+.\Release\gzio.sbr
+.\Release\infback.sbr
+.\Release\inffast.sbr
+.\Release\inflate.sbr
+.\Release\inftrees.sbr
+.\Release\minigzip.sbr
+.\Release\trees.sbr
+.\Release\uncompr.sbr
+.\Release\ZLibExport.sbr
+.\Release\zutil.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\Abin\LOCALS~1\Temp\RSP2EC.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ResPack.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

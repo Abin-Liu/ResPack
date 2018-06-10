@@ -1,0 +1,4 @@
+#define BROWSECTRL_CPP			1
+#define BROWSECTRL_H			2
+#define README_TXT			3
+#define RESOURCE_H			4
